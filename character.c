@@ -2,7 +2,6 @@
 //program to find ascii value of a character.
 
 #include <stdio.h>
-#define pi 3.14159
 int main(void) {
         char ch;
         printf("\n enter any character of your choice");
