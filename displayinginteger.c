@@ -4,10 +4,11 @@
 #include <stdio.h>
 int main(void) {
         int c;
-   
+        float n;
         printf("\n Enter any integer of your choice:");
 	scanf("%d",&c);
-	printf("%d in decimal form = %f\n",c,c);
+	n=c;
+	printf("%d in decimal form = %f\n",c,n);
 	printf("%d in octal form = %o\n",c,c);
 	printf("%d in hexadecimal form = %x\n",c,c);
 
