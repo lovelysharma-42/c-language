@@ -4,11 +4,13 @@
 int main(void) 
 {
         int num,temp = 0;
-        while(i<=10)
+        printf("\n the reversed number is : ");
+        while(num != 0)
         {
-          sum = sum+i;
-          i++;
+          temp = num%10; 
+          printf("%d",temp);
+          num = num/10;
         }
-        printf("\n the sum is : %d",sum);
+        
         return 0;
 }        
