@@ -4,6 +4,8 @@
 int main(void) 
 {
         int num,temp = 0;
+        printf("\n Enter the number :");
+        scanf("%d",&num);
         printf("\n the reversed number is : ");
         while(num != 0)
         {
